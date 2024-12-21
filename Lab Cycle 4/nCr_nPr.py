@@ -10,6 +10,6 @@ r_fact=fact(r)
 nr_fact=fact(n-r)
 nCr=n_fact/(r_fact*nr_fact)
 nPr=n_fact/nr_fact
-print("nCr: ",nCr)
-print("nPr: ",nPr)
+print("Here, is the nCr: ",nCr)
+print("Here, is the nPr: ",nPr)
 
