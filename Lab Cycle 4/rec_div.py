@@ -3,8 +3,8 @@ def div(a,b):
         return a
     else:
         return div(b,a%b)
-a=int(input("1st num: "))
-b=int(input("2nd num: "))
+a=int(input("The 1st num: "))
+b=int(input("The 2nd num: "))
 if a>=0 and b>=0:
     print("Greatest Common Divisor", div(a,b))
 else:
