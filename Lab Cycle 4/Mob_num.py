@@ -7,6 +7,6 @@ def isMobileNumber(n):
         return False
     return True
 
-n = input("Enter a mobile number: ")
+n = input("Enter your mobile number: ")
 result = isMobileNumber(n)
-print("Valid mobile number" if result else "Invalid mobile number")
+print("This is a valid mobile number" if result else "This is an invalid mobile number")
