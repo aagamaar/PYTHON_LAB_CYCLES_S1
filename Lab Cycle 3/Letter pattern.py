@@ -5,4 +5,4 @@ if n<=26:
             print(chr(65+j),end=" ")
         print()
 else:
-    print("Invalid input")
+    print("This is an invalid input")
