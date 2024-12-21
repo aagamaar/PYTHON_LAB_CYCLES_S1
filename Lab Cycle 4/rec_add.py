@@ -3,6 +3,6 @@ def add(a,b):
         return a
     else:
         return add(a+1,b-1)
-a=int(input("Enter  1st num: "))
-b=int(input("Enter  2nd num: "))
-print("Sum: ",add(a,b))
+a=int(input("Enter the 1st num: "))
+b=int(input("Enter the 2nd num: "))
+print("Here, is the Sum: ",add(a,b))
