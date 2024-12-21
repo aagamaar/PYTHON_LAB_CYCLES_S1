@@ -3,6 +3,6 @@ def power(x,n):
         return 1
     else:
         return x*power(x,n-1)
-x=float(input("Enter number: "))
-n=int(input("Enter power: "))
+x=float(input("Enter the number: "))
+n=int(input("Enter the power: "))
 print(power(x,n))
