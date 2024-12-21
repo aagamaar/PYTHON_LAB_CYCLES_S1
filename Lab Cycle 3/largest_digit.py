@@ -1,4 +1,4 @@
-N = input("Enter a number: ")
+N = input("Please enter a number: ")
 i = 1
 largest = int(N[0])
 while i<len(N):
