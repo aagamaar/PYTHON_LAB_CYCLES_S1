@@ -1,4 +1,4 @@
-n=input("Enter string: ")
+n=input("Enter the string: ")
 m=n.strip()
 l=d=w=uc=lc=0
 for i in m:
