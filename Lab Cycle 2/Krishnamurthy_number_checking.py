@@ -4,9 +4,9 @@ s=0
 for i in n:
     s += math.factorial(int(i)) 
 if s==int(n):
-    print(n,"is a Krishnamurthy number.")
+    print(n," is a Krishnamurthy number. ")
 else:
-    print(n,"is not a Krishnamurthy number.")
+    print(n," is not a Krishnamurthy number. ")
 
 
 
